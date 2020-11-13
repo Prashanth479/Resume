@@ -1,0 +1,28 @@
+table
+{
+   
+    border: 1px solid black;
+    border: 1px dashed black;
+    border-collapse: collapse;
+    }
+td
+{
+   
+    padding: 20px;
+    border: 1.5px solid black;
+    }
+
+    #maindiv{
+        top: 200px;
+        padding-bottom: 120px;
+        margin: 80px 290px;
+  
+    }
+
+    head1{
+        padding-right: 200px;
+       
+        padding-bottom: 20px;
+        margin: 20px 0px;
+
+    } 

@@ -1,0 +1,101 @@
+#header
+{
+  
+    position: fixed;
+    z-index: 1;
+    height:150px;
+    width: 100%;
+    background-color: #668284;
+    margin-bottom: 25px
+    }
+
+#name {
+    float:left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+#rew{
+  padding-left: 700px;
+  font-size: 30px;
+  color: #ffffff;
+}
+  
+  #image {
+    margin: 10px 0px;
+  }
+.block {
+
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 10px;
+    /* display: block;
+    
+    border: none;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center; */
+  }
+  .head{
+    color: white;
+    text-align: center;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }
+  #mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -10px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 35px; /* 15px padding */
+    width: 180px; /* Set a specific width */
+    height: 20px;
+    text-decoration: none; /* Remove underline */
+    font-size: 25px; /* Increase font size */
+    color:black; /* White text color */
+    border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+    border-left: solid  black 2px;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #qualif {
+    top: 160px;
+    background-color: skyblue;
+  }
+  
+  #techni {
+    top: 275px;
+    background-color: skyblue; /* Blue */
+  }
+  
+  #projects {
+    top: 385px;
+    background-color: skyblue; /* Red */
+  }
+  
+  #contact {
+    top: 500px;
+    background-color: skyblue/* Light Black */
+  }
+  #sumary{
+    padding-left: 280px;
+        padding-top: 120px;
+        font-size: 25px;
+  }
+ 
